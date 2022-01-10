@@ -1,1 +1,26 @@
-// TODO
+.header{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  svg {
+    margin-right: 1rem;
+  }
+
+  p {
+    color: var(--off-white);
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-right: .2rem;
+  }
+
+  span{
+    font-size: 1.5rem;
+    color: var(--green-500);
+  }
+}
